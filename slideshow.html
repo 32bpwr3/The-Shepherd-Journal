@@ -16,14 +16,32 @@
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
     </style>
   </head>
+  <body>
+    <textarea id="source">
 
-    var slideshow = remark.create({
-  sourceUrl: 'markdown.md'
-});
+class: center, middle
+
+# Title
+
+---
+
+# Agenda
+
+1. Introduction
+2. Deep-dive
+3. ...
+
+---
+
+# Introduction
+
+    </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
     <script>
-      var slideshow = remark.create();
+      var slideshow = remark.create({
+  source: 'Markdown source'
+});
     </script>
   </body>
 </html>
